@@ -1,0 +1,26 @@
+pH sensor(shown in Sensors\pH_sensor.jpg)
+
+	+ o/p Pin : A0 (Analog Pin of Arduino)
+	- o/p Pin : Gnd
+	+ 9V Pin : +9V (Seperate Battery to be used)
+	- Pin : Gnd
+
+Colour Sensor(shown in Sensors\colour_sensor.jpg)
+
+	S0 : 8 (Digital Pin of Arduino)
+	S1 : 9 (Digital Pin of Arduino)
+	S2 : 12 (Digital Pin of Arduino)
+	S3 : 11 (Digital Pin of Arduino)
+	Sout : 10 (Digital Pin of Arduino)
+	OE : Gnd
+	Gnd : Gnd
+	Vcc : +5V (of Arduino)
+
+Temperature Sensor(shown in Sensors\temperature_sensor.jpg)
+
+	Red wire : +5V (of Arduino)
+	Black wire : Gnd
+	Yellow/white wire : A2 (Analog Pin of Arduino)
+
+Lactometer should be placed in the milk and its reading to be noted.(shown in Sensors\lactometer.png)
+	

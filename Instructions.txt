@@ -1,0 +1,21 @@
+1.)Download and Install Xampp from the Link: https://drive.google.com/file/d/1BunEXGFeKKbI0o3OM1N1gUgfFv3Tm45z/view?usp=sharing
+2.)Copy the milk_quality.php in C:\xampp\htdocs folder. (Install xampp in the 'C:' directory)
+
+3.) General Connections :
+	a.) Take a glass full of milk and place the lactometer in it and allow it to settle down. After settling down note its reading.
+	b.) Connect Colour sensor, Temperature sensor, pH sensor to the Arduino as mentioned in Connections.txt
+	c.) Place all these sensors in the milk as shown in the YouTube Link: https://youtu.be/lCF6la-Wnks
+	d.) Open Device Manager and note the assigned COM port to the connected Arduino.
+
+4.) Xampp :
+	a.) Now open Xampp Control Panel and click start corresponding to Apache and MySQL
+	b.) Open your preferred browser and type localhost in the search box.
+	c.) Click phpMyAdmin and for creating a new table follow the below procedure :
+		i) Click new for new database and name the quality_inf and click create
+		ii) Now table has to be created, Name of the table : milk_quality and no. of columns : 8
+		iii) Name the table entries with the same name, type and order as shown in table_order.PNG image file and click save.
+	d.) For accessing the webpage click http://localhost/milk_quality.php in the search box of your browser.
+
+5.) Open pH_temp_color.py python file and change the previously noted COM port numbers at the required places.
+6.) Run pH_temp_color.py python file and refresh the http://localhost/impact.php to see the data getting uploaded.
+7.) For more Information on the obtained data Go to the YouTube Link: https://youtu.be/lCF6la-Wnks
